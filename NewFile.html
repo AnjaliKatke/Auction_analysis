@@ -1,0 +1,80 @@
+ <table class="centered">
+		        <thead>
+		          <tr>
+		          
+		          	<th>Format</th>
+		          	<th>Name</th>
+		              <th>Matches</th>
+		               <th>Innings</th>
+		              <th>Not Out</th>
+		              <th>Runns</th>
+		               <th>HighScore</th>
+		              <th>Average</th>
+		              <th>Strike Rate</th>
+		               <th>100</th>
+		              <th>50</th>
+		              <th>4s</th>
+		              <th>6s</th>
+		          </tr>
+		        </thead>
+		<form action="action.jsp">
+  <select name="productId">
+    <option value="1">MyExamCloud</option>
+    <option value="2">ExamBoat</option>
+    <option value="3">Test Generator Lab</option>
+  </select>
+  <input type="submit" value="Submit">
+</form>
+ 
+// action.jsp
+<%
+String productSelected = request.getParameter("productId");
+%>
+		        <tbody>
+		          <tr>
+	          		<td>ODI</td>
+		            <td>163</td>
+		            <td>25</td>
+		            <td>5000</td>
+		            <td>113</td>
+		            <td>38.50</td>
+		            <td>130.76</td>
+		            <td>4</td>
+		            <td>34</td>
+		            <td>434</td>
+		            <td>178</td>
+		            <td>12</td>
+		            <td>215</td>
+		          </tr>
+		            <tr>
+	          		<td>TEST</td>
+		            <td>163</td>
+		            <td>25</td>
+		            <td>5000</td>
+		            <td>113</td>
+		            <td>38.50</td>
+		            <td>130.76</td>
+		            <td>4</td>
+		            <td>34</td>
+		            <td>434</td>
+		            <td>178</td>
+		             <td>434</td>
+		            <td>178</td>
+		          </tr>
+		            <tr>
+	          		<td>T20</td>
+		            <td>163</td>
+		            <td>25</td>
+		            <td>5000</td>
+		            <td>113</td>
+		            <td>38.50</td>
+		            <td>130.76</td>
+		            <td>4</td>
+		            <td>34</td>
+		            <td>434</td>
+		            <td>178</td>
+		             <td>434</td>
+		            <td>178</td>
+		          </tr>
+		        </tbody>
+		      </table>

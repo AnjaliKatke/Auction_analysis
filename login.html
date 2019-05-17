@@ -1,0 +1,76 @@
+<html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style>
+      	body{
+      		
+      		 background-size: cover;
+      		 background-image:url("image/background.jpg");
+      	}
+     
+      	.login .card{
+      		background:rgba(0,0,0,0.75);
+      		margin-top:25px;
+      		margin-left:10px;
+      	}
+      	.login label{
+      		color:white;
+      		font-size:20px;
+      	}
+      	.login input{
+      		color:white;
+      		font-size:30px;
+      	}
+      
+      </style>
+    </head>
+
+<body>
+	<div class="row login">
+	<div class="col s4">
+	</div>
+	<div class="col s4">
+		<div class="card">
+				<div class="card-action red white-text">
+				<center><h3>Login</h3></center>			
+				</div>
+				<div class="card-content">
+		<form name="login" action="login" method="GET">
+					<div class="input-field col s12">
+					
+			          <input id="username" type="text" class="validate"name="uname">
+			          <label for="team">User Name</label>
+			           
+			        </div>
+					<div class="input-field col s12">
+			          <input id="password" type="password" class="validate"name="psw">
+			          <label for="password">Password</label>
+			        </div>
+					<div class="form-field">
+						 <label>
+					        <input type="checkbox" class="filled-in" checked="checked" />
+					        <span>Remember Me</span>
+					     </label>	
+					</div><br><br>
+					<div class="form-field">
+						<button class="btn larger-red">Login</button>
+						<button class="btn waves-effect waves-light red" type="submit" name="action">Sign Up
+ 						 </button>
+					</div><br><br>
+				</div>
+		</form>
+			</div>
+		</div>
+	</div>
+		<div class="col s4">
+	</div>
+ <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
